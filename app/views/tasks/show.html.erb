@@ -1,0 +1,6 @@
+<h2><em style="color: green"><%= @task.title%></em></h2>
+
+ <strong> <%= @task.details %> </strong>
+<p><%= link_to "edit task",edit_task_path(@task)%></p>
+<p><%=link_to "Back to list", tasks_path() %></p>
+
